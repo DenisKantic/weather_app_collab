@@ -13,4 +13,5 @@ body{
 
 .container {
     border-color: 1px solid aquamarine;
+    display: none;
 }
