@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
-
 *{
     margin: 0;
     padding: 0;
@@ -16,6 +15,19 @@ body{
     background-color: #F0F7EE;
 }
 
+.container  {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: aquamarine;
+    height: 300px;
+    width: 400px;
+}
+
+.container button:hover{
+       cursor: pointer;
+}
 .container {
     border-color: 1px solid black;
     display: none;
@@ -94,3 +106,4 @@ body{
     margin-left: 10px;
     font-size: 1em;
 }
+
