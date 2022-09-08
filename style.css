@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 body{
@@ -9,9 +13,84 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: #F0F7EE;
 }
 
 .container {
-    border-color: 1px solid aquamarine;
+    border-color: 1px solid black;
     display: none;
+}
+
+.displayContainer{
+    width: 500px;
+    min-height: 380px;
+    background-color: #C4D7F2;
+    border-radius: 10px;
+}
+
+.title{
+    font-size: 2.8em;
+    padding: 20px;
+    border-bottom: 2px solid black;
+    font-weight: 400;
+}
+
+.center-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.humidity{
+    width: 50%;
+    text-align: center;
+    height: 50px;
+    border-right: 2px solid black;
+    font-size: 1.3em;
+    font-weight: 300;
+}
+
+.feelsLike{
+    width: 50%;
+    text-align: center;
+    height: 50px;
+    font-size: 1.3em;
+    font-weight: 300;
+}
+
+.temperature{
+    font-size: 4.5em;
+    margin-top: 20px;
+}
+
+.description{
+    font-size: 2em;
+    padding-top: 20px;
+    font-weight: 300;
+}
+
+.city{
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+.bottomContainer{
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    border-top: 2px solid black;
+}
+
+.humidity, .feelsLike{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-solid{
+    margin-left: 10px;
+    font-size: 1em;
 }
