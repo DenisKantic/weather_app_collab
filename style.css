@@ -30,7 +30,6 @@ body{
 }
 .container {
     border-color: 1px solid black;
-    display: none;
 }
 
 .displayContainer{
@@ -38,6 +37,7 @@ body{
     min-height: 380px;
     background-color: #C4D7F2;
     border-radius: 10px;
+    display: none;
 }
 
 .title{
