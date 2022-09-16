@@ -12,32 +12,41 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #F0F7EE;
+    background-color: #2b2c2a;
+    background-image: url('https://source.unsplash.com/1600x900/?weather/daily');
 }
 
 .container  {
     display: flex;
     text-align: center;
     flex-direction: column;
-    border-radius: 10px;
-    background-color: aquamarine;
-    height: 300px;
-    width: 400px;
+    color: aliceblue;
+    border-radius: 45px;
+    background-color: #252525d0;
+    height: 360px;
+    width: 450px;
+    padding: 2em;
+}
+.searchbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    
 }
 
 .container button:hover{
        cursor: pointer;
 }
-.container {
-    border-color: 1px solid black;
-}
+
 
 .displayContainer{
-    width: 500px;
-    min-height: 380px;
-    background-color: #C4D7F2;
-    border-radius: 10px;
+    width: 450px;
+    min-height: 360px;
+    background-color: #252525d0;
+    border-radius: 45px;
     display: none;
+    color: aliceblue;
 }
 
 .title{
