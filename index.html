@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
@@ -11,28 +14,22 @@
 </head>
 <body>
     
-
-     <form class="form" id="form"> 
     <div class="container">
     <h1 class="title"> Weather App</h1>
         <input type="search" placeholder="Please enter your place here" class="searchbar">
         <button class="submitBtn" type="submit"><i class="fa fa-search">Search</i></button>
     </div>
-     </form>
-
     <div class="displayContainer">
         <h1 class="title">Weather App</h1>
         <div class="center-part">
-        <h1 class="temperature">31 °C</h1>
-        <p class="description">Windy</p>
-        <h3 class="city">City</h3>
+        <h1 class="temperature"></h1>
+        <p class="description"></p>
+        <h3 class="city"></h3>
     </div>
         <div class="bottomContainer">
         <p class="humidity">Humidity<i class="fa-solid fa-droplet"></i></p>
         <p class="feelsLike">Feels Like<i class="fa-solid fa-temperature-three-quarters"></i></p>
     
     </div>  
-
-    
 </body>
 </html>
